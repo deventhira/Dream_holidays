@@ -1,0 +1,70 @@
+.font{
+    font-family: "Libre Baskerville", serif;
+}
+footer{
+    color: rgb(6, 67, 71);
+}
+
+
+@media screen and (max-width:576px){
+    nav{
+        box-shadow: 0px 5px 8px #3b4142;
+        z-index: 10;
+    }
+    .nav-link{
+        color: rgb(255, 0, 0) !important;
+        border-bottom: 1px solid transparent;
+        font-style:oblique;
+    }
+    .nav-link:hover{
+        border-bottom: 1px solid rgb(54, 245, 6);
+    }
+    body{
+        background-color: rgb(255, 251, 4);
+    }
+    .card{
+        border-radius: 25px;
+    }
+    .card img{
+        border-radius: 25px;
+    }
+    .call{
+        text-decoration: none;
+        display:inline-block;
+        color: #000000;
+        font-size: 13px;
+        border: 2px solid #000000;
+        padding: 14px 40px;
+        border-radius: 30px;
+        margin-top: 30px;
+        left: 30px;
+    }
+    .book{
+        text-decoration: none;
+        display: inline-block;
+        color: #000000;
+        font-size: 13px;
+        border: 2px solid #000000;
+        padding: 14px 40px;
+        border-radius: 30px;
+        margin-top: 30px;
+        right: 5px;
+    }
+    footer{
+        color: rgb(6, 67, 71);
+    }
+
+  
+
+
+
+
+
+
+
+
+
+}
+
+
+

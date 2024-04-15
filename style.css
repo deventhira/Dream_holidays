@@ -1,0 +1,193 @@
+.font{
+    font-family: "Libre Baskerville", serif;
+}
+nav{
+    box-shadow: 0px 5px 8px #3b4142;
+    z-index: 10;
+}
+.nav-link{
+    color: rgb(255, 0, 0) !important;
+    border-bottom: 1px solid transparent;
+    font-style:oblique;
+}
+.nav-link:hover{
+    border-bottom: 1px solid rgb(54, 245, 6);
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    
+}
+/* home */
+#home{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(235, 19, 19, 0.4),rgba(20, 49, 83, 0.7)),url(/image/1.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.name{
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+}
+
+.call{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 50px;
+    left: 30px;
+}
+.book{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 50px;
+    left: 30px;
+}
+marquee img{
+    width: 20%;
+    height: 80%;
+}
+.card{
+    width: 30%;
+    height: 11%;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.card img{
+    border-radius: 20px;
+}
+.button{
+    text-decoration: none;
+    display: inline-block;
+    color: #ff0202;
+    font-size: 18px;
+    border: 2px solid #110e0e;
+    padding: 9px 30px;
+    border-radius: 50px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.package{
+    text-decoration: none;
+}
+
+footer{
+    color: rgb(6, 67, 71);
+}
+
+
+
+/* medis */
+@media screen and (max-width:576px) {
+    nav{
+        box-shadow: 0px 5px 8px #3b4142;
+        z-index: 10;
+    }
+    .nav-link{
+        color: rgb(255, 0, 0) !important;
+        border-bottom: 1px solid transparent;
+        font-style:oblique;
+    }
+    .nav-link:hover{
+        border-bottom: 1px solid rgb(54, 245, 6);
+    }
+    .name{
+        font-size: 40px;
+        text-align: center;
+    }
+    .call{
+        text-decoration: none;
+        display:inline-block;
+        color: #ffe602;
+        font-size: 13px;
+        border: 2px solid #ffffff;
+        padding: 14px 40px;
+        border-radius: 30px;
+        margin-top: 30px;
+        left: 30px;
+    }
+    .book{
+        text-decoration: none;
+        display: inline-block;
+        color: #ffe602;
+        font-size: 13px;
+        border: 2px solid #fff;
+        padding: 14px 40px;
+        border-radius: 30px;
+        margin-top: 30px;
+        right: 5px;
+    }
+    .card{
+        width: 100%;
+        height: 30%;
+        border-radius: 30px;
+    }
+    .card img{
+        border-radius: 30px;
+    }
+    .button{
+        text-decoration: none;
+        display: inline-block;
+        color: #ff0202;
+        font-size: 18px;
+        border: 2px solid #110e0e;
+        padding: 9px 30px;
+        border-radius: 50px;
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    .button:hover{
+        background-color: rgb(182, 74, 182);
+        color: #fff;
+        cursor: pointer;
+    }
+    .package{
+        text-decoration: none;
+    }
+    .cardbg{
+        background-color: #ff0202;
+    }
+    .cardbg1{
+        background-color: #8a2797;
+    }
+    footer{
+        color: rgb(6, 67, 71);
+    }
+}
+
+
+
+
+
+
+
+
+
+
