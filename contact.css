@@ -13,7 +13,14 @@ body{
     justify-content: center;
     background-color: rgb(59, 165, 179);
 } */
-
+.nav-link{
+    color: rgb(255, 0, 0) !important;
+    border-bottom: 1px solid transparent;
+    font-style:oblique;
+}
+.nav-link:hover{
+    border-bottom: 1px solid rgb(54, 245, 6);
+}
 .font{
     font-family: "Libre Baskerville", serif;
 }

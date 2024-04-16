@@ -4,7 +4,14 @@
 footer{
     color: rgb(6, 67, 71);
 }
-
+.nav-link{
+    color: rgb(255, 0, 0) !important;
+    border-bottom: 1px solid transparent;
+    font-style:oblique;
+}
+.nav-link:hover{
+    border-bottom: 1px solid rgb(54, 245, 6);
+}
 
 @media screen and (max-width:576px){
     nav{
